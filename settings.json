@@ -1,0 +1,124 @@
+{
+    "title": "Settings",
+    "theme": "settings",
+    "elements": [
+        {
+            "type": "text",
+            "id": "title",
+            "x": 100,
+            "y": 10,
+            "text": "⚙️ Settings",
+            "fontSize": 2,
+            "textColor": "#FFD700",
+            "visible": true
+        },
+        {
+            "type": "text",
+            "id": "wifi_label",
+            "x": 10,
+            "y": 50,
+            "text": "WiFi Configuration:",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "visible": true
+        },
+        {
+            "type": "status",
+            "id": "wifi",
+            "x": 10,
+            "y": 70,
+            "fontSize": 1,
+            "textColor": "#00FF00",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "wifi_reconnect",
+            "x": 200,
+            "y": 65,
+            "width": 100,
+            "height": 25,
+            "text": "Reconnect",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "bgColor": "#004080",
+            "borderColor": "#0080FF",
+            "action": "api:wifi_reconnect",
+            "visible": true
+        },
+        {
+            "type": "text",
+            "id": "display_label",
+            "x": 10,
+            "y": 110,
+            "text": "Display Config:",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "reload_config",
+            "x": 150,
+            "y": 105,
+            "width": 100,
+            "height": 25,
+            "text": "Reload",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "bgColor": "#806000",
+            "borderColor": "#FFAA00",
+            "action": "config:reload_display",
+            "visible": true
+        },
+        {
+            "type": "text",
+            "id": "ftp_label",
+            "x": 10,
+            "y": 150,
+            "text": "FTP Server:",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "visible": true
+        },
+        {
+            "type": "status",
+            "id": "ftp",
+            "x": 100,
+            "y": 150,
+            "fontSize": 1,
+            "textColor": "#00FF00",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "back_btn",
+            "x": 10,
+            "y": 200,
+            "width": 80,
+            "height": 30,
+            "text": "← Back",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "bgColor": "#333333",
+            "borderColor": "#666666",
+            "action": "page:main",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "restart_btn",
+            "x": 200,
+            "y": 200,
+            "width": 80,
+            "height": 30,
+            "text": "Restart",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "bgColor": "#660000",
+            "borderColor": "#AA0000",
+            "action": "api:restart",
+            "visible": true
+        }
+    ]
+}

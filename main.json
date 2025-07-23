@@ -1,0 +1,107 @@
+{
+    "title": "M5Stack Clock Interface",
+    "theme": "default",
+    "elements": [
+        {
+            "type": "text",
+            "id": "title",
+            "x": 60,
+            "y": 10,
+            "text": "🕐 M5Stack Clock",
+            "fontSize": 2,
+            "textColor": "#00FFFF",
+            "visible": true
+        },
+        {
+            "type": "clock",
+            "id": "main_clock",
+            "x": 40,
+            "y": 50,
+            "fontSize": 3,
+            "textColor": "#FFFFFF",
+            "visible": true
+        },
+        {
+            "type": "text",
+            "id": "date",
+            "x": 80,
+            "y": 95,
+            "text": "",
+            "fontSize": 1,
+            "textColor": "#AAAAAA",
+            "visible": true
+        },
+        {
+            "type": "status",
+            "id": "wifi",
+            "x": 10,
+            "y": 120,
+            "fontSize": 1,
+            "textColor": "#00FF00",
+            "visible": true
+        },
+        {
+            "type": "status",
+            "id": "battery",
+            "x": 10,
+            "y": 140,
+            "fontSize": 1,
+            "textColor": "#00FF00",
+            "visible": true
+        },
+        {
+            "type": "status",
+            "id": "ftp",
+            "x": 10,
+            "y": 160,
+            "fontSize": 1,
+            "textColor": "#00FF00",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "settings_btn",
+            "x": 10,
+            "y": 200,
+            "width": 80,
+            "height": 30,
+            "text": "Settings",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "bgColor": "#333333",
+            "borderColor": "#666666",
+            "action": "page:settings",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "monitor_btn",
+            "x": 100,
+            "y": 200,
+            "width": 80,
+            "height": 30,
+            "text": "Monitor",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "bgColor": "#006600",
+            "borderColor": "#00AA00",
+            "action": "page:monitor",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "restart_btn",
+            "x": 190,
+            "y": 200,
+            "width": 80,
+            "height": 30,
+            "text": "Restart",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "bgColor": "#660000",
+            "borderColor": "#AA0000",
+            "action": "api:restart",
+            "visible": true
+        }
+    ]
+}

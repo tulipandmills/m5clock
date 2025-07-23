@@ -1,0 +1,125 @@
+{
+    "title": "System Monitor",
+    "theme": "monitor",
+    "elements": [
+        {
+            "type": "text",
+            "id": "title",
+            "x": 80,
+            "y": 10,
+            "text": "📊 System Monitor",
+            "fontSize": 2,
+            "textColor": "#00FF00",
+            "visible": true
+        },
+        {
+            "type": "text",
+            "id": "battery_label",
+            "x": 10,
+            "y": 50,
+            "text": "Battery:",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "visible": true
+        },
+        {
+            "type": "progress",
+            "id": "battery_progress",
+            "x": 80,
+            "y": 50,
+            "width": 150,
+            "height": 15,
+            "value": 0.75,
+            "textColor": "#00FF00",
+            "bgColor": "#333333",
+            "borderColor": "#666666",
+            "visible": true
+        },
+        {
+            "type": "text",
+            "id": "memory_label",
+            "x": 10,
+            "y": 90,
+            "text": "Memory:",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "visible": true
+        },
+        {
+            "type": "progress",
+            "id": "memory_progress",
+            "x": 80,
+            "y": 90,
+            "width": 150,
+            "height": 15,
+            "value": 0.30,
+            "textColor": "#0080FF",
+            "bgColor": "#333333",
+            "borderColor": "#666666",
+            "visible": true
+        },
+        {
+            "type": "text",
+            "id": "wifi_label",
+            "x": 10,
+            "y": 130,
+            "text": "WiFi Signal:",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "visible": true
+        },
+        {
+            "type": "progress",
+            "id": "wifi_progress",
+            "x": 100,
+            "y": 130,
+            "width": 130,
+            "height": 15,
+            "value": 0.85,
+            "textColor": "#FFD700",
+            "bgColor": "#333333",
+            "borderColor": "#666666",
+            "visible": true
+        },
+        {
+            "type": "text",
+            "id": "uptime_label",
+            "x": 10,
+            "y": 170,
+            "text": "Uptime: 00:00:00",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "back_btn",
+            "x": 10,
+            "y": 200,
+            "width": 80,
+            "height": 30,
+            "text": "← Back",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "bgColor": "#333333",
+            "borderColor": "#666666",
+            "action": "page:main",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "refresh_btn",
+            "x": 100,
+            "y": 200,
+            "width": 80,
+            "height": 30,
+            "text": "Refresh",
+            "fontSize": 1,
+            "textColor": "#FFFFFF",
+            "bgColor": "#006600",
+            "borderColor": "#00AA00",
+            "action": "config:reload_display",
+            "visible": true
+        }
+    ]
+}

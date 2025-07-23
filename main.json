@@ -7,7 +7,7 @@
             "id": "title",
             "x": 60,
             "y": 10,
-            "text": "🕐 M5Stack Clock",
+            "text": "M5Stack Clock",
             "fontSize": 2,
             "textColor": "#00FFFF",
             "visible": true

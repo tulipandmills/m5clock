@@ -1,0 +1,16 @@
+{
+    "title": "Hello",
+    "theme": "default",
+    "elements": [
+        {
+            "type": "text",
+            "id": "title",
+            "x": 60,
+            "y": 10,
+            "text": "Hello World",
+            "fontSize": 2,
+            "textColor": "#00FFFF",
+            "visible": true
+        }
+    ]
+}

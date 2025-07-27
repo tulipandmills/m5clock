@@ -1,0 +1,81 @@
+{
+    "title": "Feeding Tracker",
+    "theme": "default",
+    "elements": [
+        {
+            "type": "text",
+            "id": "title",
+            "x": 80,
+            "y": 10,
+            "text": "Feeding Tracker",
+            "fontSize": 2,
+            "textColor": "#00FFFF",
+            "visible": true
+        },
+        {
+            "type": "feeding_timer",
+            "id": "feeding_timer",
+            "x": 50,
+            "y": 40,
+            "fontSize": 2,
+            "textColor": "#FFFFFF",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "start_left_btn",
+            "x": 20,
+            "y": 90,
+            "width": 80,
+            "height": 40,
+            "text": "Left",
+            "fontSize": 2,
+            "textColor": "#FFFFFF",
+            "bgColor": "#0066CC",
+            "borderColor": "#0099FF",
+            "action": "feed:start:Left",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "start_right_btn",
+            "x": 120,
+            "y": 90,
+            "width": 80,
+            "height": 40,
+            "text": "Right",
+            "fontSize": 2,
+            "textColor": "#FFFFFF",
+            "bgColor": "#CC6600",
+            "borderColor": "#FF9900",
+            "action": "feed:start:Right",
+            "visible": true
+        },
+        {
+            "type": "button",
+            "id": "stop_btn",
+            "x": 220,
+            "y": 90,
+            "width": 80,
+            "height": 40,
+            "text": "Stop",
+            "fontSize": 2,
+            "textColor": "#FFFFFF",
+            "bgColor": "#CC0000",
+            "borderColor": "#FF0000",
+            "action": "feed:stop",
+            "visible": true
+        },
+        {
+            "type": "feeding_log",
+            "id": "recent_log",
+            "x": 10,
+            "y": 150,
+            "width": 300,
+            "height": 80,
+            "fontSize": 1,
+            "textColor": "#AAAAAA",
+            "visible": true
+        }
+    ]
+}

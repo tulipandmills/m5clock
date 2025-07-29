@@ -13,6 +13,15 @@
             "visible": true
         },
         {
+            "type": "clock",
+            "id": "small_clock",
+            "x": 230,
+            "y": 5,
+            "fontSize": 1,
+            "textColor": "#CCCCCC",
+            "visible": true
+        },
+        {
             "type": "feeding_timer",
             "id": "feeding_timer",
             "x": 10,
@@ -62,7 +71,7 @@
             "fontSize": 2,
             "textColor": "#FFFFFF",
             "bgColor": "#CC0000",
-            "borderColor": "#FF0000",
+            "borderColor": "#FF3333",
             "action": "feed:stop",
             "visible": true
         },
@@ -74,7 +83,7 @@
             "width": 300,
             "height": 85,
             "fontSize": 1,
-            "textColor": "#AAAAAA",
+            "textColor": "#FFFFFF",
             "visible": true
         }
     ]
